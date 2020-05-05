@@ -1,0 +1,84 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  height: 720px;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container-title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.container-input {
+  width: 40%;
+  position: relative;
+}
+
+#firstName, #secondName, #email, #number, #password {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 95%;
+  height: 20px;
+  font-size: 20px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px dotted beige;
+}
+
+p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: normal;
+  color: rgb(116, 116, 116);
+  position: absolute;
+  pointer-events: none;
+  top: -5px;
+  left: 20px;
+  font-size: 10px;
+  display: none;
+}
+
+#btn {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 40%;
+  height: 50px;
+  font-size: 20px;
+  background-color: green;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: yellowgreen;
+}
+
+
+.tick, .cross {
+  height: 24px;
+  width: 24px;
+  right: 0;
+  top: 15px;
+  position: absolute;
+  display: none;
+}
+
+.warning-txt {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  width: 50%;
+  background-color: rgb(241, 24, 144);
+  border-radius: 5px;
+  padding: 10px;
+  position: absolute;
+  display: none;
+}
